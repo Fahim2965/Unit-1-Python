@@ -20,7 +20,7 @@ print("im going to break")
 
 # Exercise 5:
 
-faveFoods = {"Chicken", "Pizza", "HALAL Food"}
+faveFoods = ["Chicken", "Pizza", "HALAL Food"]
 
 # Exercise 6:
 
