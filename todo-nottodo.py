@@ -5,7 +5,7 @@ Choices = ''
 #Sets the continuation and stopping variables for the while loop
 while Choices != 'Stop':
     print()
-    print('Your todos are:')
+    print('Your tasks are:')
     print(Todo)
     print()
 #This gives the user choices to add, delete, or check the list.
@@ -21,10 +21,10 @@ while Choices != 'Stop':
     
 #elif activates based on conditional (del varient)
     elif Choices == "Delete" or Choices == "2" :
-        Deltodo = int(input("Please select the number for the item in the list you'd like to remove: "))
+        Deltodo = int(input("Select the number for the item in the list you'd like to remove: "))
 #deletes specified item with -1 to make it user friendly on indexes
         del Todo[Deltodo - 1]
-        print("Your selected statement has been deleted!")
+        print("The selected item has been deleted!")
         print()
 
 #Stops loop if conditionals are met
@@ -35,5 +35,5 @@ while Choices != 'Stop':
 
 #Repeats the loop if no conditionals are met
     else :
-        print('The answer chosen is invalid.')
+        print('Invalid choice.')
         print()
